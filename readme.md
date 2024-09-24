@@ -25,3 +25,15 @@ J'ai donc recree un compte.
 
 ### Debut du test avec CDK et ECS
 [Video d'aide](https://www.youtube.com/watch?v=sqlM20ZZbSg)
+
+
+
+
+
+
+
+<!-- Note pour lancer
+cdk synth
+cdk bootstrap
+cdk deploy [--all]
+ -->
