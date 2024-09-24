@@ -13,4 +13,5 @@ RUN apt install -y \
 COPY ./config/script.sh /script.sh
 COPY ./config/requirements.txt /requirements.txt
 
-ENTRYPOINT ["/bin/bash" , "/script.sh"]
+CMD ["/bin/bash" , "/script.sh"]
+ENTRYPOINT [ "/bin/bash" ]
