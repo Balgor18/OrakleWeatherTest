@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 import aws_cdk as cdk
 
-from test_cdk.test_cdk_stack import TestCdkStack
+from test_cdk.test_cdk_stack import TestEcsStack
 from vpc.vpc_stack import TestVpcStack
 from ecs.ecs_cluster import ECSCluster
 from ecs.ecs_service import ECSService
 
 app = cdk.App()
-stack1 = TestCdkStack(app, "TestCdkStack")
+stack1 = TestEcsStack(app, "TestEcsStack")
 
 vpc_stack = TestVpcStack(app, "VPC-Stack")
 cluster_stack = ECSCluster(app, "ECS-Stack", vpc=vpc_stack.vpc)

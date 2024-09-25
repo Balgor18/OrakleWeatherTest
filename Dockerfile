@@ -1,7 +1,5 @@
 FROM python:3.9.1
 
-# USER $USER
-
 WORKDIR /usr/src/app
 
 RUN apt upgrade -y && apt update -y
@@ -12,6 +10,7 @@ RUN apt install -y \
 
 COPY ./config/script.sh /script.sh
 COPY ./config/requirements.txt /requirements.txt
+COPY ./srcs /usr/src/app
 
 CMD ["/bin/bash" , "/script.sh"]
 ENTRYPOINT [ "/bin/bash" ]
