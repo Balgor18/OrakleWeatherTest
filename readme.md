@@ -3,8 +3,6 @@
 
 ## Step 1 Containerization
 
-Soirée du 23 Septembre :
-
 Création du projet avec `compose.yaml` et `Dockerfile`. Pour automatiser l'installation des requirements j'ai installer en amont dans le docker le package python [pipreqs](https://pypi.org/project/pipreqs/) qui me permet de generer automatiquement le fichier requirements.txt. Un fois recup je le place dans config.
 
 Ensuite, j'ai commencé a faire le swagger grace a ça [DocsFastApi](https://fastapi.tiangolo.com/how-to/configure-swagger-ui/).
