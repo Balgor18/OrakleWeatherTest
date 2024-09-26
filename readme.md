@@ -9,7 +9,7 @@ Ensuite, j'ai commencé a faire le swagger grace a ça [DocsFastApi](https://fas
 
 ## Step2 Prise en main AWS
 
-[Getting started](https://aws.amazon.com/fr/getting-started/onboarding-to-aws/)
+[Getting started](https://aws.amazon.com/fr/getting-started/onboarding-to-aws/)  
 [CDK Getting started](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
 Contre temps
@@ -36,6 +36,6 @@ cdk deploy [--all]
 
 
 ## Other useful Link
-https://github.com/aws-samples/aws-cdk-examples/blob/main/python/docker-app-with-asg-alb/README.md
-https://www.youtube.com/watch?v=T-H4nJQyMig
-https://docs.aws.amazon.com/fr_fr/cdk/v2/guide/home.html
+https://github.com/aws-samples/aws-cdk-examples/blob/main/python/docker-app-with-asg-alb/README.md  
+https://www.youtube.com/watch?v=T-H4nJQyMig  
+https://docs.aws.amazon.com/fr_fr/cdk/v2/guide/home.html  
